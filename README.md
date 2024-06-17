@@ -27,6 +27,17 @@ Learn more by reading [Create a simple db-less Middleware solution with CAP](htt
 4. Deploy the Sales Service into your account and create a binding to the SAP HANA Cloud instance.
 5. Run `cds watch` to try out the sample.
 
+## Project Structure
+
+**sales-service**
+Is a basic CAP OData service which simulates one of the two external services.
+You can deploy and run that service on your SAP Business Technology Platform, Cloud Foundry runtimes. It uses SAP HANA Cloud as persistence.
+The sample data is included with the project.
+
+**cap-middleware**
+The cap-middleware, is the middleware service itself. It is a standard CAP project and follows it's project structure. Within the `.\srv\external` folder, you can find the external service imports.
+If you want to learn more about integrating with external services, take a look at the [Service integration with SAP Cloud Application Programming Model Codejam content on GitHub](https://github.com/SAP-samples/cap-service-integration-codejam) repository.
+
 ## Known Issues
 No known issues.
 
