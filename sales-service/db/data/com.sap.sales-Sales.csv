@@ -1,0 +1,4 @@
+id;customer;employeeID;salesVolume;status
+2b23bb4b-4ac7-4a24-ac02-aa10cabd842c;Wood And Planks Inc.;179be775-f0fe-430a-8359-a6aadeb43e93;150000;closed;
+6ccf474c-3881-44b7-99fb-59a2a4668418;TechnoCracks unlimited;179be775-f0fe-430a-8359-a6aadeb43e93;325000;open;
+7a4ede72-244a-4f5f-8efa-b17e032d01ee;High Solar Energy AG;b83a3641-2ac3-4f26-ad43-b912a8b7dd36;500000;open;

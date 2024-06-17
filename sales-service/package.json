@@ -1,0 +1,25 @@
+{
+  "name": "sales-service",
+  "version": "1.0.1",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap-cloud-sdk/resilience": "^3.14.0",
+    "@sap/cds": "^7",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1.6.0",
+    "@sap/cds-dk": "^7"
+  },
+  "cds": {
+    "requires": {
+      "auth": "dummy"
+    }
+  },
+  "scripts": {
+    "start": "cds-serve"
+  }
+}
