@@ -1,8 +1,6 @@
 # DB-less middleware solution with CAP
 
-<!--- Register repository https://api.reuse.software/register, then add REUSE badge:
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
--->
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/cap-db-less-middleware)](https://api.reuse.software/info/github.com/SAP-samples/cap-db-less-middleware)
 
 ## Description
 When building front-end applications, we want to make data visually accessible and editable to the user. The application relies on correctness, availability and reliability of the data source to bring the best in class user experience to the end user. To guarantee the seamless integration, the back-end system needs to be aware of the application's requirements.
